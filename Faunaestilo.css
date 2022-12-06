@@ -1,0 +1,88 @@
+
+div{
+
+}
+.fauna1{
+	background-color: #9a7d0a;
+	height: 60px;
+	width: 500px;
+	margin-top: 0;
+	text-align: center;
+	font-family: serif; 
+}
+
+.animalitos{
+	margin-left: 450px;
+	background-color: #f1c40f;
+	width: 500px;
+	height: 20px;
+	border-radius: 60% 20% 60% 20%;
+	text-align: center;
+	font-family: Cooper Black;
+
+}
+
+.subinf{
+	margin-left: 50px;
+	font-size: 17px;
+	text-align: justify;
+	font-weight: bold;
+	width: 1200px;
+
+}
+.subinf2{
+	margin-left: 50px;
+	font-size: 17px;
+	text-align: left;
+	font-weight: bold;	
+	width: 1200px;
+	text-align: justify;	
+}
+
+
+
+.movimiento{
+	width: 25%;
+	margin: auto;
+	overflow: hidden;
+}
+.movimiento ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambios 20s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;
+}
+.movimiento li{
+	list-style: none;
+	width: 100%;
+}
+
+.movimiento img{
+	width: 100%;
+}
+@keyframes cambios{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{ margin-left: -100%; }
+	45%{ margin-left: -100%; }
+
+	50%{ margin-left: -200%; }
+	70%{ margin-left: -200%; }
+
+	75%{ margin-left: -300%; }
+	100%{ margin-left: -300%; }
+}
+
+
+nav a {
+
+}
+.regresion{
+
+	width: 200px;
+	height: 20px;
+	border: 2px solid white;
+}
