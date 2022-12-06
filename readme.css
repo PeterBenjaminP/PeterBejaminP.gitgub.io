@@ -1,0 +1,113 @@
+div{
+
+}
+.titulo{
+	background-image: url(fondohoja.jpg);
+	font-family: Franklin Gothic Heavy;
+	color: #350a06;
+	font-style: italic;
+	text-align: center;
+	font-size: 40px;
+	width: 450px;
+	height: 125px;
+	padding: 1em;
+	border-radius: 20% 20% 20% 20%;
+
+}
+.semarnat{
+	background-image: url(semarnat.png);
+	width: 45%;
+	height: 110px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 200px;
+	border: 1px solid white;
+}
+.semar2{
+	background-image: url(semar2.jpg);
+	width: 45%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 500px;
+	border: 1px solid white;
+}
+
+.subtitu{
+	font-family: Rockwell;
+	font-size: 30px;
+	background-image: url(inst.jpg);
+	border: 2px solid white;
+	width: 200px;
+	text-align: center;
+	border-radius: 0px 70px 0px 70px;
+}
+.informacion1{
+	margin-left: 50px;
+	font-size: 17px;
+	text-align: justify;
+	font-weight: bold;
+	width: 600px;
+	border: 2px solid #a87bc7;
+	padding: 1em;
+	background-image: url(inst3.jfif);
+}
+.informacion{
+	margin-left: 50px;
+	font-size: 17px;
+	text-align: justify;
+	font-weight: bold;
+	width: 1200px;
+	border: 2px solid #a87bc7;
+	padding: 1em;
+	background-image: url(inst3.jfif);
+
+}
+
+.movimiento{
+	width: 25%;
+	margin: auto;
+	overflow: hidden;
+}
+.movimiento ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambios 20s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;
+}
+.movimiento li{
+	list-style: none;
+	width: 100%;
+}
+
+.movimiento img{
+	width: 100%;
+}
+@keyframes cambios{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{ margin-left: -100%; }
+	45%{ margin-left: -100%; }
+
+	50%{ margin-left: -200%; }
+	70%{ margin-left: -200%; }
+
+	75%{ margin-left: -300%; }
+	100%{ margin-left: -300%; }
+}
+hr{
+	background-color: #952f57;
+}
+nav a{
+	font-size: 7px;
+	border: 3px solid pink;
+	width: 20px;
+	height: 10px;
+}
